@@ -1,0 +1,42 @@
+.warn{
+    color: rgb(173 168 255);
+    text-align: center;
+    border: 2px solid #ddd;
+    width: fit-content;
+    margin: 1.5pc auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.userdata {
+    text-align: center;
+    margin-top: 1pc;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1pc 0;
+}
+
+.user p {
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+}
+
+.user p:last-child{
+    background-color: #7a57da85;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+.user p svg {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+

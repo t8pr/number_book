@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ibm;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1b1b1b;
+}
+
+body {
+    background-color: #eee;
+}
+
+.ar {
+    font-family: 'Tajawal', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin-top: 2pc;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 2px solid #16a3b1;
+    width: 60%;
+    padding-bottom: 1pc;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 60%;
+    height: 0%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    background: #5C4D7D;
+    border-radius: 15px;
+    margin: 1.5pc 0;
+    padding-bottom: 2pc;
+}
+
+.box hr {
+    width: 50%;
+    margin: 0 auto;
+    height: 5px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.warn {
+    text-align: center;
+    margin-top: 1.5pc;
+    margin-bottom: 1pc;
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin: 2pc auto;
+    
+}
+
+.image img {
+    width: 70%;
+}
+
+.search-form {
+    text-align: center;
+}
+
+.search-form input {
+    height: 3pc;
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 95%;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.search-form input:disabled {
+    pointer-events: none;
+}
+
+.search-form input:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #e0e0e0;
+    opacity: 1; /* Firefox */
+}
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #e0e0e0;
+}
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #e0e0e0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    height: 3pc;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 3pc;
+    will-change: transform;
+}
+
+.button-28:disabled {
+    pointer-events: none;
+}
+
+.button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.button-28 svg {
+    fill: #eee;
+}
+
+.made {
+    text-align: center;
+    text-transform: uppercase;
+    color: #5c4d7d;
+    margin-top: 5pc;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding-bottom: 2pc;
+    font-family: monospace;
+}
+
+.made a {
+    color: #16a3b1;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 715px) {
+    .title h1 {
+        font-size: 32px;
+    }
+    .box {
+        width: 100%;
+    }
+    .image img {
+        width: 90%;
+    }
+    .made {
+        font-size: 30px;
+    }
+}
