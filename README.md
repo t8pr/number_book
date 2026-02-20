@@ -72,5 +72,5 @@ $ python app.py
 
 <div align="center">
   <code>[ EOF ] System offline.</code><br><br>
-  <b>Engineered by <a href="https://instagram.com/t8pr">8PR</a></b>
+  <b>Engineered by <a>Abo7amdan</a></b>
 </div>
